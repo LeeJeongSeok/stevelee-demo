@@ -6,8 +6,10 @@
     <title>Spring Boot Application with JSP</title>
 </head>
 <body>
-        <c:forEach var="human" items="${test}">
-            <c:out value="${human.name}" /> : <c:out value="${human.sex}" /><br>
-        </c:forEach>
+        <%
+            String data = "";
+            data += (String) session.getAttribute("result") + "\n";
+            out.println(data);
+        %>
 </body>
 </html>
