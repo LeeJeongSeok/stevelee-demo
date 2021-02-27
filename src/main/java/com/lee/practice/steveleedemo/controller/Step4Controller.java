@@ -26,11 +26,8 @@ public class Step4Controller {
 
         System.out.println(users.size());
 
-        JSONParser parser = new JSONParser();
-        JSONObject object = new JSONObject();
-
-        for (User user : users) {
-            System.out.println(user.getMail_id());
+        for(User user : users) {
+            System.out.println(user.toString());
         }
 
 

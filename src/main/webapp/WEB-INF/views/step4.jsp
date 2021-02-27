@@ -19,7 +19,7 @@
                 alert(xhttp.responseText);
             }
         };
-        xhttp.open("POST", "/step4");
+        xhttp.open("POST", "/step4", true);
         xhttp.setRequestHeader('Content-type', 'application/json');
         xhttp.send(JSON.stringify(userinfo));
 

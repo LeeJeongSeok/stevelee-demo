@@ -75,4 +75,17 @@ public class User {
     public void setSn7(String sn7) {
         this.sn7 = sn7;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "mail_id='" + mail_id + '\'' +
+                ", pw='" + pw + '\'' +
+                ", use_yn='" + use_yn + '\'' +
+                ", phone_num='" + phone_num + '\'' +
+                ", type='" + type + '\'' +
+                ", addr='" + addr + '\'' +
+                ", sn7='" + sn7 + '\'' +
+                '}';
+    }
 }
