@@ -11,7 +11,7 @@
             ,{"mail_id":"stevelee@steveleejava.com","pw":"1q2w3ezZ!!","use_yn":"y","phone_num":"01077778888","type":"admin","addr":"서울시강남구논현 동","sn7":"9209301"}
             ,{"mail_id":"stevelee@steveleejava.com" ,"pw":"1q2w3ezZ!!","use_yn":"y","phone_num":"01077778888","type":"admin","addr":"서울시강남구논현동","sn7":"9209301"} ]
 
-        var data = {"mail_id":"stevelee@steveleejava.com","pw":"1q2w3ezZ!!","use_yn":"y","phone_num":"01077778888","type":"admin","addr":"서울시강남구논현 동","sn7":"9209301"}
+
 
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
